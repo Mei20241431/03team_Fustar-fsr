@@ -1,4 +1,4 @@
-# Incremental Learning-Face Restoration Model   team03
+# 03_Incremental Learning-Face Restoration Model   team03
 ## 🔧 Dependencies and Installation
 Python = 3.8 (Recommend to use Anaconda or Miniconda)  
 PyTorch = 2.0  
