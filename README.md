@@ -1,6 +1,11 @@
 # Incremental Learning-Face Restoration Model   team03
 ## 🔧 Dependencies and Installation
+Python = 3.8 (Recommend to use Anaconda or Miniconda)  
+PyTorch = 2.0  
+Option: NVIDIA GPU + CUDA  
+Option: Linux  
 ## Installation
+
 ## test
 <!--
 **Mei20241431/Mei20241431** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
