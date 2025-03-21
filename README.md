@@ -47,11 +47,12 @@ python test_step1.py --in_dir [image folder] --out_dir [result folder]  --guidan
 ```
 
 ### step2: Image Post-processing
+#### Download the pretrained model
+Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step1 to the experiments/pretrained_models folder.
+
 ```
 #### Enter Directory
-cd Image Post-processing 
-#### Download the pretrained model
-Download the pretrained face diffusion model from [Google Drive]() models/step1 to the experiments/pretrained_models folder. 
+cd Image Post-processing  
 #### Commands
 python test_step2.py
 ```
