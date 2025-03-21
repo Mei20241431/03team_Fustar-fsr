@@ -5,7 +5,7 @@ PyTorch = 2.0
 Option: NVIDIA GPU + CUDA  
 Option: Linux  
 ## Installation
-git clone https://github.com/Mei20241431/03team_Fustar-fsr
+git clone https://github.com/Mei20241431/03team-Fustar-fsr
 
 Our method is divided into three steps to restore low-quality images. Therefore, we will use three different models for step recovery of low quality images. First, install the dependencies for each of the three different phases.
 ### step1: Image_Preprocessing 
