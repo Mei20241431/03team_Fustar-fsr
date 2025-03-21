@@ -14,7 +14,7 @@ conda install mpi4py
 pip3 install -r requirements.txt 
 
 ### step2: Image Post-processing
-#install python dependencies
+#install python dependencies  
 cd Image Post-processing  
 pip install basicsr  
 pip install facexlib  
@@ -30,7 +30,12 @@ python setup.py develop
 
 ## test
 ### step1: Image_Preprocessing
-
+#### Enter Directory
+cd Image_Preprocessing 
+#### Download the pretrained model
+Download the pretrained face diffusion model from [Google Drive | BaiduPan (pw: pgdf)] to the models folder (credit to DifFace). 
+#### Commands
+python test_step1.py 
 
 
 ### step2: Image Post-processing
@@ -38,8 +43,8 @@ python setup.py develop
 
 
 
-### step3: Image_Enhancement
-
+### step3: Image_Enhancement  
+cd Image_Enhancement 
 CUDA_VISIBLE_DEVICES=0 \
 python ./test_step3.py --input /path/to/your/test \
 --output ./results/enhanceHR --model_path ./experiments/ELAN.pth --tile_size 1200
