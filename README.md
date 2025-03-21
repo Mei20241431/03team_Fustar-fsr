@@ -29,6 +29,19 @@ python setup.py develop
 
 
 ### step2: Image Post-processing
+
+
+
+
+### step3: Image_Enhancement
+
+CUDA_VISIBLE_DEVICES=0 \
+python ./test_step3.py --input ./afterPGDiff \
+--output ./results/enhanceHR --model_path ./experiments/ELAN.pth --tile_size 1200
+
+
+
+
 <!--
 **Mei20241431/Mei20241431** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
