@@ -45,8 +45,8 @@ python test_step1.py --in_dir [image folder] --out_dir [result folder]  --guidan
 ### step3: Image_Enhancement  
 cd Image_Enhancement 
 CUDA_VISIBLE_DEVICES=0 \
-python ./test_step3.py --input /path/to/your/test \
---output ./results/enhanceHR --model_path ./experiments/ELAN.pth --tile_size 1200
+python test_step3.py --input [image folder] \
+--output [result folder] --model_path ./experiments/ELAN.pth --tile_size 1200
 
 
 
