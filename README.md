@@ -40,7 +40,7 @@ python setup.py develop
 cd Image_Preprocessing
 ```
 #### Download the pretrained model
-Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step1 to the models folder.
+Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step1 to the models/ folder.
 
 
 #### Commands
@@ -64,11 +64,13 @@ python test_step2.py
 
 
 ### step3: Image_Enhancement  
+#### Download the pretrained model
+Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step3 to the experiments/ folder.
 ```
 cd Image_Enhancement 
 CUDA_VISIBLE_DEVICES=0 \
 python test_step3.py --input [image folder] \
---output [result folder] --model_path ./experiments/ELAN.pth --tile_size 1200
+--output [result folder] --model_path ./experiments/enhance.pth --tile_size 1200
 ```
 
 
