@@ -33,7 +33,7 @@ python setup.py develop
 #### Enter Directory
 cd Image_Preprocessing 
 #### Download the pretrained model
-Download the pretrained face diffusion model from [https://drive.google.com/file/d/1JMYAYoAQdOWvjwAdqq3fpQkpE7Z55mkT/view?usp=drive_link] to the models folder (credit to DifFace). 
+Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/file/d/1JMYAYoAQdOWvjwAdqq3fpQkpE7Z55mkT/view?usp=drive_link) to the models folder (credit to DifFace). 
 #### Commands
 python test_step1.py 
 
