@@ -64,7 +64,7 @@ python test_step2.py
 
 ### step3: Image_Enhancement  
 ```
-cd Image_Preprocessing
+cd Image_Enhancement 
 ```
 #### Download the pretrained model
 Download the pretrained enhanced model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step3 to the experiments/ folder.
