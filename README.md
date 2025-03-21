@@ -7,6 +7,7 @@ Option: Linux
 ## Installation
 git clone https://github.com/Mei20241431/Mei20241431
 
+Our method is divided into three steps to restore low-quality images. Therefore, we will use three different models for step recovery of low quality images. First, install the dependencies for each of the three different phases.
 ### step1: Image_Preprocessing 
 ```
 #install python dependencies  
@@ -35,6 +36,7 @@ python setup.py develop
 
 ## test
 
+The low quality image is recovered in three stages successively. First download the pre-trained model we provided and put it in the correct folder. Then run the test code to output the results.
 ### step1: Image_Preprocessing
 ```
 cd Image_Preprocessing
