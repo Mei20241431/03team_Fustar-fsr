@@ -15,6 +15,13 @@ pip3 install -r requirements.txt
 ### step2: Image Post-processing
 #install python dependencies
 
+
+### step3: Image_Enhancement
+
+cd Image_Enhancement
+pip install -r requirements.txt
+python setup.py develop
+
 ## test
 ### step1: Image_Preprocessing
 
