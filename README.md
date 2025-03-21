@@ -36,11 +36,12 @@ python setup.py develop
 ## test
 
 ### step1: Image_Preprocessing
+#### Download the pretrained model
+Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step1 to the models folder.
+
 ```
 #### Enter Directory
-cd Image_Preprocessing 
-#### Download the pretrained model
-Download the pretrained face diffusion model from [Google Drive]() models/step1 to the models folder. 
+cd Image_Preprocessing  
 #### Commands
 python test_step1.py --in_dir [image folder] --out_dir [result folder]  --guidance_scale 0.05
 ```
