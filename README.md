@@ -5,15 +5,21 @@ PyTorch = 2.0
 Option: NVIDIA GPU + CUDA  
 Option: Linux  
 ## Installation
-### step1: Image_Preprocessing 
-#install python dependencies
+git clone https://github.com/Mei20241431/Mei20241431
 
-cd Image_Preprocessing   
+### step1: Image_Preprocessing 
+#install python dependencies  
+cd Image_Preprocessing  
 conda install mpi4py  
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
 
 ### step2: Image Post-processing
 #install python dependencies
+cd Image Post-processing  
+pip install basicsr  
+pip install facexlib  
+pip install -r requirements.txt  
+python setup.py develop  
 
 
 ### step3: Image_Enhancement
