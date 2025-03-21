@@ -38,7 +38,12 @@ Download the pretrained face diffusion model from [Google Drive]() models/step1 
 python test_step1.py --in_dir [image folder] --out_dir [result folder]  --guidance_scale 0.05
 
 ### step2: Image Post-processing
-
+#### Enter Directory
+cd Image Post-processing 
+#### Download the pretrained model
+Download the pretrained face diffusion model from [Google Drive]() models/step1 to the experiments/pretrained_models folder. 
+#### Commands
+python test_step2.py 
 
 
 
