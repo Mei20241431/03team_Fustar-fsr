@@ -161,7 +161,7 @@ def create_argparser():
         batch_size=1,
         use_ddim=False,
         model_path="models/FFHQ512.pth",
-        restorer_path="models/restorer/RRDB.pth",
+        restorer_path="models/RRDB.pth",
         guidance_scale=0.1,
     )
     defaults.update(model_and_diffusion_defaults())
