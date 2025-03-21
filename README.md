@@ -22,7 +22,7 @@ pip install -r requirements.txt
 python setup.py develop  
 
 ### step3: Image_Enhancement
-#install python dependencies
+#install python dependencies   
 cd Image_Enhancement   
 pip install -r requirements.txt   
 python setup.py develop
