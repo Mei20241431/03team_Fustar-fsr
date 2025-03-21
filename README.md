@@ -36,40 +36,30 @@ python setup.py develop
 ## test
 
 ### step1: Image_Preprocessing
-```
-cd Image_Preprocessing
-```
 #### Download the pretrained model
 Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step1 to the models/ folder.
-
-
 #### Commands
 ```
+cd Image_Preprocessing
 python test_step1.py --in_dir [image folder] --out_dir [result folder]  --guidance_scale 0.05
 ```
 
 ### step2: Image Post-processing
-```
-cd Image Post-processing
-```
 #### Download the pretrained model
 Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step2 to the experiments/pretrained_models/ folder.
-
-
 #### Commands
 ```
+cd Image Post-processing
 python test_step2.py
 ```
 
 
 
 ### step3: Image_Enhancement  
-```
-cd Image_Preprocessing
-```
 #### Download the pretrained model
 Download the pretrained face diffusion model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step3 to the experiments/ folder.
-``` 
+```
+cd Image_Preprocessing
 CUDA_VISIBLE_DEVICES=0 \
 python test_step3.py --input [image folder] \
 --output [result folder] --model_path ./experiments/enhance.pth --tile_size 1200
