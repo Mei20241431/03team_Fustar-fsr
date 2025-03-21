@@ -6,11 +6,24 @@ Option: NVIDIA GPU + CUDA
 Option: Linux  
 ## Installation
 ### step1: Image_Preprocessing
+#git clone this repository  
+git clone https://github.com/Mei20241431/Mei20241431/tree/main/Image_Preprocessing  
+cd Image_Preprocessing  
+
+#install python dependencies  
+conda install mpi4py  
+pip3 install -r requirements.txt
+
 ### step2: Image Post-processing
+#git clone this repository  
+git clone https://github.com/Mei20241431/Mei20241431/tree/main/Image_Preprocessing  
+
+#install python dependencies
 
 ## test
 ### step1: Image_Preprocessing
-#git clone this repository  
+
+
 
 ### step2: Image Post-processing
 <!--
