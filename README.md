@@ -41,7 +41,7 @@ python setup.py develop
 ### step3: Image_Enhancement
 
 CUDA_VISIBLE_DEVICES=0 \
-python ./test_step3.py --input ./afterPGDiff \
+python ./test_step3.py --input /path/to/your/test \
 --output ./results/enhanceHR --model_path ./experiments/ELAN.pth --tile_size 1200
 
 
