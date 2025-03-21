@@ -21,7 +21,6 @@ pip install facexlib
 pip install -r requirements.txt  
 python setup.py develop  
 
-
 ### step3: Image_Enhancement
 #install python dependencies
 cd Image_Enhancement   
@@ -29,6 +28,7 @@ pip install -r requirements.txt
 python setup.py develop
 
 ## test
+
 ### step1: Image_Preprocessing
 #### Enter Directory
 cd Image_Preprocessing 
@@ -36,7 +36,6 @@ cd Image_Preprocessing
 Download the pretrained face diffusion model from [Google Drive | BaiduPan (pw: pgdf)] to the models folder (credit to DifFace). 
 #### Commands
 python test_step1.py 
-
 
 ### step2: Image Post-processing
 
