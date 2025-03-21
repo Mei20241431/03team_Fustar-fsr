@@ -1,4 +1,4 @@
-# 03_Incremental Learning-Face Restoration Model   team03
+# 03_Incremental Learning-Face Restoration Model   
 ## 🔧 Dependencies and Installation
 Python = 3.8 (Recommend to use Anaconda or Miniconda)  
 PyTorch = 2.0  
@@ -24,7 +24,6 @@ python setup.py develop
 
 ### step3: Image_Enhancement
 #install python dependencies
-
 cd Image_Enhancement   
 pip install -r requirements.txt   
 python setup.py develop
