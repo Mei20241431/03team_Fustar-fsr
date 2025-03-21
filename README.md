@@ -57,7 +57,7 @@ cd Image Post-processing
 Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1_bG2PMJcJR3aq1B5pAvy0hXHcodGICxe?usp=drive_link) models/step2 to the experiments/pretrained_models/ folder.
 #### Commands
 ```
-python test_step2.py
+python test_step2.py -i [image folder] -o [result folder] -s 1
 ```
 
 
